@@ -14,7 +14,7 @@ if (app.get('env') == 'production') {
     var Config = {
         'REDIS': {
             'RDS_PORT': '6379',
-            'RDS_HOST': '114.55.102.24',
+            'RDS_HOST': 'localhost',
             'RDS_AUTH': 'xiguanChuanmei901',
             'RDS_DB': 8
         }
