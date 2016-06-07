@@ -5,8 +5,8 @@ if (app.get('env') == 'production') {
     var Config = {
         'REDIS': {
             'RDS_PORT': '6379',
-            'RDS_HOST': '345f3d5ba0be4626.m.cnhza.kvstore.aliyuncs.com',
-            'RDS_AUTH': 'xiguanChuanmei901',
+            'RDS_HOST': 'localhost',
+            'RDS_AUTH': 'localhost',
             'RDS_DB': 4
         }
     };
