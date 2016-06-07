@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8,chrome=1" />
+    <title>动作电影_最新动作电影_动作片_好看的动作片_动作电影大全 - 爱下载电影天堂</title>
+    <meta name="keywords" content="最新动作电影下载,动作电影,好看的动作电影" />
+    <meta name="description" content="最新动作电影迅雷下载，好看的动作片，高清播放，内容丰富、资源优质，囊括美国最新动作片、韩国动作片、等动作片电影大全推荐。" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/columns.css" />
+    <base target="_blank" />
+</head>
+
+<body>
+    <center>
+        <%- include header.html %>
+            <div class="gengxin">
+                <div class="gengxinh">
+                    <div class="gxl">
+                        <b>最新更新</b>
+                    </div>
+                </div>
+                <% gengxin.forEach(function(item){ %>
+                <ul class="hang1">
+                    <% item.ranklist.forEach(function(obj){ %>
+                    <li>
+                        <p><%= obj.ctime %></p><a href="/detail?url=<%= obj.url %>"><%= obj.title %></a></li>
+                    <% }); %>
+                </ul>
+                <% }); %>
+            </div>
+
+            <div class="classpage">
+            <% allgengxin.forEach(function(item){ %>
+                <div id="classpage2">
+                    <div class="middle2aa1">
+                        <div class="middle2aa1_h">
+                            <div class="fl">
+                                <span><a href=#top target=_self>TOP</a></span><a href=#A id=A target=_self><%= item.top %></a>
+                            </div>
+                        </div>
+                        <ul>
+                            <% item.ranklist.forEach(function(obj, index){ %>
+                            <li><span><%= index + 1 %></span><a href="/detail?url=<%= obj.url %>">
+                                <%= obj.title %>
+                            </a></li>
+                            <% }); %>
+                        </ul>
+                    </div>
+                </div>
+                <% }); %>
+            </div>
+    </center>
+    <%- include footer.html %>
+</body>
+
+</html>

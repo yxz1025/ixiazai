@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8,chrome=1" />
+    <title>《
+        <%= title %>》下载 - 电视剧下载 - 爱下载电影天堂</title>
+    <meta name="keywords" content="<%= title %>下载,<%= title %>电视剧" />
+    <meta name="description" content="《<%= title %>》爱下载电影天堂为广大网友提供电视剧《<%= title %>》下载" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/neiye.css" />
+    <link rel="alternate" media="only screen and(max-width: 640px)" href="http://m.ixiazai.me/" />
+    <base target="_blank" />
+</head>
+
+<body>
+    <center>
+    <%- include header.html %>
+        <div class="biaoti">
+            <div class="lm">
+                <h1>
+                  <a href="javascript:;"><%= title %></a>
+                </h1>
+            </div>
+            <div class="dingwei">
+                <div class="dingwei-a">
+                    <div class="haibao">
+                        <a href="#" title="再见布莱克先生/GoodbyeMrBlack"><img src="<%= img %>" class="vipicbg" alt="<%= title %>"></a>
+                    </div>
+                    <div class="zhuyan">
+                        <ul>
+                            <li>
+                                <%= director %>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="liebiao">
+            <div id="bofq">
+                <div id="xiazai"><span><a href="#">下载使用帮助</a></span>迅雷下载</div>
+            </div>
+            <div id="jishu">
+                <div class="con4">
+                    <ul class="downurl" id="ul1">
+                        <% list.forEach(function(item){ %>
+                            <li id="li1_0">
+                                <div class="loldytt">
+                                    <input type="checkbox" value="<%= item.downurl %>" name="CopyAddr2" style="vertical-align:middle" class="2addr">
+                                    <div><span id="s2p0"><a href="<%= item.downurl %>" title="<%= item.title %>" target="_self"><%= item.title %></a></span>
+                                        <input type="text" value="<%= item.downurl %>" style="vertical-align: middle; width: 345px;" id="lin2k0">
+                                    </div>
+                                </div>
+                                <div class="dwon_xl"><a target="_self" href="<%= item.downurl %>" thurl="<%= item.downurl %>" mc="" title="迅雷下载" id="2thUrlid0" class="dwon2">迅雷下载</a></div>
+                            </li>
+                            <% }); %>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="juqing">
+            <div id="jqjs">
+                <h2>
+                <a href="#"><%= title %></a>剧情介绍
+                </h2>
+            </div>
+            <div class="neirong">
+                <p>
+                    <%= info %>
+                </p>
+            </div>
+        </div>
+    </center>
+<%- include footer.html %>
+</body>
+
+</html>

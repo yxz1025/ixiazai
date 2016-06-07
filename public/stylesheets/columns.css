@@ -1,0 +1,136 @@
+html{overflow:-moz-scrollbars-vertical;}
+html{min-height:101%;}
+*{margin:0;padding:0;}
+img {border:0;}
+body{font:12px "\5B8B\4F53",sans-serif;background:#f9fcff url(http://img.cnsofas.com/images/qdb.jpg) repeat-x scroll center top;text-align:center;}
+a,a:link,a:visited,a:active,a:hover{text-decoration:none;outline: none;}
+a:active{star:expression(this.onFocus=this.blur());}
+:focus{outline:0;}
+.topbar {font-family: "Microsoft YaHei","Arial Narrow",HELVETICA;width:985px; margin:0 auto; height:35px; line-height:35px; text-align:right; overflow:hidden;}
+.topbar span {float:right; color:#000; padding:0 12px;}
+.topbar span a {color:#000;}
+.topbar span a:hover {text-decoration:underline; color:#ff0000;}
+.br {border-right:#dadada 1px solid;color:#000;}
+.topbar span a b{color:#ff0000;font-family:Microsoft YaHei; font-size: 14px; font-weight: bold;line-height:33px; }
+.top-box {width:964px; margin:0 auto; padding-top:5px; overflow:hidden; zoom:1;}
+.logo a{float:left; text-indent:-9999px;overflow:hidden;cursor:pointer;display:block;width:194px; height:74px;background:url(http://7xqomp.com2.z0.glb.qiniucdn.com/Download_96px_1191740_easyicon.net.png);}
+.logonet a{float:left; text-indent:-9999px;overflow:hidden;cursor:pointer;display:block;width:194px; height:74px;background:url(http://img.cnsofas.com/images/loldyttnet.gif);}
+.search-box {width:399px; overflow:hidden; margin-top:21px; float:right;}
+.search-box form {height:56px;}
+.key {width:283px; float:left; display:inline; font-size:16px; font-family:Arial; height:30px; line-height:30px; padding:0 7px; border:1px solid #b6b6b6; border-color:#7b7b7b #b6b6b6 #b6b6b6 #7b7b7b; background:url(http://img.cnsofas.com/images/ss.png) -304px 0;}
+.submit {width:95px; height:32px; cursor:pointer; float:right; background:url(http://img.cnsofas.com/images/ss.png); border:0;}
+#zhengwen{height:42px; background:#E40011;}
+.new_nav{width:988px;overflow:hidden;margin:0 auto;*zoom:1;list-style:none;font-family:"Microsoft YaHei","Î¢ÈíÑÅºÚ",helvetica,arial,verdana,tahoma,sans-serif;}
+.new_nav ul{overflow:hidden;height:42px;line-height:42px;line-height:42px\9;}
+.new_nav ul li{float:left;display:inline;list-style:none;margin-left:16px;width:88px;}
+.new_nav ul li.dm{float:left;display:inline;list-style:none;margin-left:16px;width:72px;}
+.new_nav ul li.current{width:57px;margin-right:5px; margin-left:12px;letter-spacing:2px;background:#f3f3f3;}
+.new_nav ul li a{color:#fff;font-size:16px;font-weight:900;}
+.new_nav ul li a:hover{text-decoration:underline;}
+.new_nav ul li.current a{color:#444444;font-size:16px;font-weight:900;}
+.new_nav ul li.current a:hover{text-decoration:none;color:#444444;}
+:root .new_nav ul li a strong {letter-spacing:0.7px;}
+#dybj{background:url(http://img.cnsofas.com/images/dytl.jpg);height:39px; border-bottom:#B5D9EE 0px solid; margin-bottom:0px;}
+#dyfl{margin:0 auto;position:relative;width:980px; overflow:hidden; height:37px; line-height:39px; line-height:39px\9;}
+#dyfl .dy{display:inline;OVERFLOW:hidden;padding-left:15px; float:left;letter-spacing:2px;}
+#dyfl .dy a{color:#000; font-size:14px; float:left; padding:0 6px;width:64px;}
+#dyfl .dy a.dl{color:#000; font-size:14px; float:left; padding:0 6px;width:80px;}
+#dyfl .dy span{float:left; padding:0 6px; color:#ccc;}
+#dyfl .dy a:hover{color:#2C602F;text-decoration:underline;}
+#xihuan{float:right;padding-right:6px;}
+.bdsharebuttonbox{padding-top:5px;float:right;}
+#qj960a{position:relative;margin-top:10px;width:960px;text-align:center;height:90px;background:#f9fcff;margin-bottom:9px;}
+#qj960b{position:relative;margin-top:9px;width:960px;text-align:center;height:90px;background:#f9fcff;margin-bottom:10px;}
+#fenlei{margin-left:3px; width:960px; background-color:#d7d7d7;height:37px; line-height:36px;border-left:1px solid #CECECE;border-right:1px solid #CECECE;border-bottom:1px solid #CECECE;border-top:0px solid #d7d7d7;margin-bottom:5px;}
+#fenlei .lanmu{display:inline-block;OVERFLOW:hidden;float:left;}
+#fenlei .lanmu ul{overflow:hidden;color:#000000;font-size:12px;letter-spacing:2px; padding-left:13px; padding-top:2px; *padding-top:0px;}
+#fenlei .lanmu ul p{display:inline; padding:5px 8px 3px 14px; background:url(http://img.cnsofas.com/images/bg12.gif);border-bottom:1px solid #D5D5D5; border-radius: 4px 4px 4px 4px;color:#0000;font-size:12px; font-weight:normal;letter-spacing:4px;margin:0px 8px 0px 8px;}
+#fenlei .lanmu ul a p{font-family:Arial,Helvetica,sans-serif; font-size:12px;text-decoration:none;}
+#fenlei .lanmu ul a{color:#000000;overflow:hidden;font-size:12px;}
+#fenlei .lanmu ul a:hover{color:#2C602F;text-decoration:underline;}
+#fenlei .lanmu ul b span{display:inline; padding:5px 8px 3px 14px; background:url(http://img.cnsofas.com/images/bg12.gif);border-bottom:1px solid #D5D5D5; border-radius: 4px 4px 4px 4px;color:#ff00;font-size:12px; font-weight:normal;letter-spacing:4px;margin:0px 8px 0px 8px;}
+#fenlei .lanmu ul b a span{font-weight:normal;font-family:Arial,Helvetica,sans-serif; font-size:12px;text-decoration:none;color:#ff0000;}
+#fenlei .lanmu ul b a{color:#ff0000;overflow:hidden;font-size:12px;}
+#fenlei .lanmu ul b a:hover{color:#ff0000;text-decoration:underline;}
+#fenlei .xc{padding-top:2px;text-align:right;padding-right:9px;float:right;}
+#fenlei .xc strong a{letter-spacing:2px;color:#333; line-height:38px;}
+#fenlei .xc a:hover{color:#ff0000;text-decoration:underline;}
+#fenlei .xc a strong{color:#ff0000;font-size:16px; font-weight:bolder;letter-spacing:1px;}
+#xinxi{overflow:hidden;width:962px;font-family:verdana;border-left:1px solid #B5D9EE;border-right:1px solid #B5D9EE;padding-top:10px;padding-bottom:11px; }
+#xinxin{overflow:hidden;width:962px;font-family:verdana;border-left:1px solid #B5D9EE;border-right:1px solid #B5D9EE;border-bottom:1px solid #B5D9EE;padding-top:10px;padding-bottom:11px; }
+#yx{padding-top:0px;}
+#yx ul{list-style:none;float:left;overflow:hidden;}
+#yx ul li{width:320px;height:250px;float:left;}
+#qj300g{position:relative;width:300px;text-align:center;height:250px;background:#f9fcff;}
+#qj300b{position:relative;width:300px;text-align:center;height:250px;background:#f9fcff;}
+#qj300h{position:relative;width:300px;text-align:center;height:250px;background:#f9fcff;}
+.kandian{float:center;overflow:hidden;margin-top:5px;width:962px;border:1px solid #A0d9EE;margin-bottom:10px;padding-bottom:12px;}
+.kandian-h{background:url(http://img.cnsofas.com/images/sh_2.jpg) repeat-x;}
+.kandian-h .rq{border-bottom:1px solid #A0d9EE;font-weight:bold;font-size:14px;line-height:34px;height:34px;background:url(http://img.cnsofas.com/images/bg05.gif) 21px 10px no-repeat;padding-left:47px;text-align:left;padding-top:0px;color:#2C602F;letter-spacing:2px;}
+.kandian-h .rq b{color:#bc2931;font-size:14px;font-weight:bolder;letter-spacing:2px;}
+.kandian-h .rq span{float:right;font-size:12px;padding-right:13px;font-weight:normal;line-height:34px;height:19px;letter-spacing:1px;}
+.kandian-h .rq span em{font-weight:bold;font-family:verdana;font-style: normal;display:inline;padding-right:2px;color:#df3f1f;}
+.commend ul {padding-left:16px;margin-top:7px;}
+.commend ul li {float:left; display:inline; margin:9px 10px 0px 0px; width:124px; overflow:hidden; position:relative;}
+.commend ul li img {width:120px; height:142px; padding:1px; border:1px solid #E2E2E2;}
+.commend ul li strong {width:120px;font-weight:normal; display:block; text-align:center;margin-top:6px;*margin-top:10px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.commend ul li p {filter:alpha(opacity=80); position: absolute; top: 121px;left: 2px;background-color: #484848; opacity: 0.9; width: 120px; color: #fff;text-align: center;overflow:hidden;height: 23px;line-height: 23px; }
+.commend ul li a{color:#000000;}
+.db{display:block;}
+.gengxin{margin-top:8px;float:center;overflow:hidden;width:962px;height:381px;border:1px solid #B5D9EE;background:#f9fcff;}
+.gengxin ul{list-style:none;padding-left:26px;}
+.gengxin ul.hang1{background-color:#f0f0f0;width:936px; height:35px;overflow:hidden;}
+.gengxin ul.hang2{background-color:#f9fcff;width:936px; height:35px;overflow:hidden;}
+.gengxin li{white-space:nowrap; overflow:hidden;float:left;width:232px;text-align:left;padding-top:9px;padding-bottom:10px;color:#2C602F;}
+.gengxin li a{font-size:12px;color:#000000;text-decoration:none;margin-right:6px;}
+.gengxin li a span{color:#2C602F;}
+.gengxin li a:hover{color:#2C602F;text-decoration:underline;}
+.gengxin li p{display:inline;padding-right:12px;color:#df3f1f;font-size:12px;font-family:verdana;font-weight:normal;}
+.gengxin li p span{padding-right:8px;color:green;font-size:13px;font-family:verdana;font-weight:normal;}
+.gengxinh{BACKGROUND:url(http://img.cnsofas.com/images/sh_2.jpg) repeat-x;}
+.gengxinh .gxl{border-bottom:1px solid #A0d9EE;font-weight:bold;font-size:14px;line-height:34px;height:34px;background:url(http://img.cnsofas.com/images/bg05.gif) 21px 10px no-repeat;padding-left:47px;text-align:left;padding-top:0px;color:#2C602F;letter-spacing:2px;margin-bottom:15px;}
+.gengxinh .gxl a{color:#bc2931;font-size:14px;font-weight:bolder;}
+.gengxinh .gxl b{color:#bc2931;font-size:14px;font-weight:bolder;letter-spacing:2px;}
+.gengxinh .gxl span{color:#2C602F;float:right;font-size:12px;padding-right:13px;font-weight:normal;line-height:34px;height:19px;letter-spacing:2px;}
+.gengxinh .gxl span strong{color:#2C602F;font-size:12px;font-family:verdana; font-weight:normal;}
+.xifen{margin-top:0px;float:center;overflow:hidden;width:962px;height:591px;border:1px solid #B5D9EE;background:#f9fcff;}
+.xifen ul{list-style:none;padding-left:26px;}
+.xifen ul.hang1{background-color:#f0f0f0;width:936px; height:35px;overflow:hidden;}
+.xifen ul.hang2{background-color:#f9fcff;width:936px; height:35px;overflow:hidden;}
+.xifen li{white-space:nowrap; overflow:hidden;float:left;width:232px;text-align:left;padding-top:9px;padding-bottom:10px;color:#2C602F;}
+.xifen li a{font-size:12px;color:#000000;text-decoration:none;margin-right:6px;}
+.xifen li a span{color:#2C602F;}
+.xifen li a:hover{color:#2C602F;text-decoration:underline;}
+.xifen li p{display:inline;padding-right:12px;color:#bc2931;font-size:12px;font-family:verdana;font-weight:normal;}
+.xifen li p span{padding-right:8px;color:green;font-size:13px;font-family:verdana;font-weight:normal;}
+.gengxin-h{BACKGROUND:url(http://img.cnsofas.com/images/sh_2.jpg) repeat-x;}
+.gengxin-h .qy{border-bottom:1px solid #A0d9EE;font-weight:bold;font-size:14px;line-height:34px;height:34px;background:url(http://img.cnsofas.com/images/bg05.gif) 21px 10px no-repeat;padding-left:47px;text-align:left;padding-top:0px;color:#2C602F;letter-spacing:2px;margin-bottom:15px;}
+.gengxin-h .qy a{color:#bc2931;font-size:14px;font-weight:bolder;}
+.gengxin-h .qy b{color:#bc2931;font-size:14px;font-weight:bolder;letter-spacing:2px;}
+.gengxin-h .qy span{color:#2C602F;float:right;font-size:12px;padding-right:13px;font-weight:normal;line-height:34px;height:19px;letter-spacing:2px;}
+.gengxin-h .qy span strong{color:#2C602F;font-size:12px;font-family:verdana; font-weight:normal;}
+.classpage{margin-top:0px;overflow:hidden; width:962px;border-bottom:1px solid #B5D9EE;border-left:1px solid #B5D9EE;border-right:1px solid #B5D9EE;height:100%;}
+#classpage2{text-align:center;width:962px;}
+.middle2aa1{width:962px;float:left;background-color:#f9fcff;margin-bottom:12px;}
+.middle2aa1 a{color:#000000;text-decoration:none;}
+.middle2aa1 a:hover{color:#2C602F;text-decoration:underline;}
+.middle2aa1 ul{white-space:nowrap;list-style:none;padding-left:18px;margin-top:10px;padding-bottom:35px;margin-bottom:10px;_margin-bottom:0px;}
+.middle2aa1 ul li{float:left;width:223px;text-align:left;padding-top:9px;padding-bottom:7px;border-bottom:1px dashed #ddd;margin-left:10px;white-space:nowrap; overflow:hidden;font-family:"ËÎÌå";}
+.middle2aa1 ul li span{font-weight:normal;color:#777777;font-size:12px;font-family:verdana; padding-right:12px;}
+.middle2aa1_h .fl a{text-decoration:none;color:#2C602F;}
+.middle2aa1_h .fl a:hover{text-decoration:none;color:#2C602F;}
+.middle2aa1_h{border-bottom:1px solid #B5D9EE;border-top:1px solid #B5D9EE;}
+.middle2aa1_h .fl{width:933px;height:26px;line-height:26px;text-align:left;color:#2C602F;padding-left:29px;BACKGROUND:url(http://img.cnsofas.com/images/sh_2.jpg) repeat-x;font-weight:bold;font-size:14px;}
+.middle2aa1_h .fl span{font-size:12px;float:right;line-height:25px;height:25px;color:#000000;padding-right:14px;font-weight:normal;}
+.middle2aa1_h .fl span a{color:#666;font-weight:normal;}
+.uleter{position: fixed;right: 10px;bottom: 10px;height: 234px;padding: 5px;display: block;width: 170px;background: #f9fcff;overflow: visible;z-index: 1000; _position: absolute;_bottom: auto;_top: expression(documentElement.scrollTop + documentElement.clientHeight-this.offsetHeight);border: 1px solid #B5D9EE;}
+.uhtitle{background:url(http://img.cnsofas.com/images/xuanz.gif) no-repeat 40px 7px; padding-left:25px; font-family:arial;font-size: 14px;color: #2C602F;height: 30px;line-height: 30px; letter-spacing:2px;}
+.letter li{float: left;width: 24px;height: 24px;margin-top: 5px;margin-bottom: 5px;line-height: 22px;margin-left: 5px;margin-right: 5px;display: inline;}
+.letter li a{font-weight:bold;display: block;border: 1px solid #dbdbdb;color: #2C602F;text-align: center;}
+.letter li a:hover{border: 1px solid #B5D9EE;color: #2C602F;}
+.letter li span{float: left;width: 71px;height: 21px;margin-top: 0px;margin-bottom: 6px;line-height: 21px;margin-left:55px;margin-right: 5px;display: inline;}
+.letter li span a{font-weight:normal;display: block; padding-top:1px; padding-left:3px;border: 1px solid #dbdbdb;color: #2C602F; font-size: 12px;text-align: center;letter-spacing:2px;}
+.letter li span a:hover{border: 1px solid #B5D9EE;color: #2C602F;}
+.bottom{background:url(http://img.cnsofas.com/images/Bg1.png) 0 0 repeat-x #ebebeb;border:1px solid #e2e2e2;overflow:hidden;height:100px;margin-top:10px;padding-top:19px;}
+.bottom p{float:center;line-height:29px;height:29px;color:#777777;}
+.bottom a{color:#777777;}

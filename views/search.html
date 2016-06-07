@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8,chrome=1" />
+    <title>爱下载电影天堂 - 搜索页面 - 爱下载电影天堂</title>
+    <meta name="keywords" content="爱下载电影天堂,搜索页面" />
+    <meta name="description" content="爱下载电影天堂,搜索页面" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/search.css" />
+
+    <link rel="alternate" media="only screen and(max-width: 640px)" href="http://m.ixiazai.me/" />
+    <base target="_blank" />
+</head>
+
+<body>
+    <center>
+        <%- include header.html %>
+            <div class="solb">
+                <div class="solbh">
+                    <span>搜索<b>权</b>的结果</span>
+                    <strong><a href="http://www.ixiazai.me/xunlei/vip/"><b>免费使用迅雷会员VIP账号</b></a></strong>
+                </div>
+                <div class="hang3">
+                    <label><em>序</em>名称</label><b>类型</b><span>资源</span><strong>更新时间</strong>
+                </div>
+                <% list.forEach(function(item, index){ %>
+                <ol>
+                    <label><em><%= index + 1 %></em><a href="/detail?url=<%= item.url %>"><%= item.title %></a></label><b><%= item.type %></b><span>有下载</span><strong><%= item.ctime %></strong></ol>
+                <% }); %>
+<div id="xinxii">
+<div id="yx">
+
+</div>
+</div>
+            </div>
+    </center>
+<%- include footer.html %>
+</body>
+
+</html>
